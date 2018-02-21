@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e 
+
 ####Defining pathways
 toplvl=/Users/franklinfeingold/Desktop/NKI_script
 dcmdir=/Users/franklinfeingold/Desktop/NKI_script/Dicom
@@ -400,8 +402,5 @@ done
 echo "${subj} complete!"
 
 done
-
-
-
 
 
